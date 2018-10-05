@@ -1,13 +1,13 @@
 <?php
 
-namespace bgaluszka\Mbank;
+namespace lukasirsak\Mbank;
 
 /**
  * Library for accessing mBank (mbank.pl) transaction service
  *
  * Class Mbank
  *
- * @package bgaluszka\Mbank
+ * @package lukasirsak\Mbank
  */
 class Mbank
 {
