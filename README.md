@@ -1,4 +1,10 @@
-## Library for accessing mBank PL transaction service
+## Library for accessing mBank Slovak transaction service
+
+PHP knižnica pre prácu s mBank účtom. Knižnica umožnuje vykonávať operácie s účtom. Forknutá a upravená pre slovenský výpis účtu.
+
+Forked from https://github.com/bgaluszka/mbank PL transaction service.
+
+The software is provided "as is", without warranty of any kind. Use it on Your own risk.
 
 Suitable for checking for new transactions. Implemented methods:
 
@@ -19,7 +25,7 @@ Install library from composer:
 ```json
 {
     "require": {
-        "bgaluszka/mbank": "dev-master"
+        "lukasirsak/mbank": "dev-master"
     }
 }
 ```
@@ -33,7 +39,7 @@ Install library from composer:
 // load the autoload.php from composer
 require 'vendor/autoload.php';
 
-use bgaluszka\Mbank\Mbank;
+use lukasirsak\Mbank\Mbank;
 
 const MBANK_LOGIN = 'YOUR-LOGIN';
 const MBANK_PASSWORD = 'YOUR-PASSWORD';
@@ -75,7 +81,7 @@ try {
 // load the autoload.php from composer
 require 'vendor/autoload.php';
 
-use bgaluszka\Mbank\Mbank;
+use lukasirsak\Mbank\Mbank;
 
 const MBANK_LOGIN = 'YOUR-LOGIN';
 const MBANK_PASSWORD = 'YOUR-PASSWORD';
@@ -115,7 +121,7 @@ try {
 <?php
 require_once 'vendor/autoload.php';
 
-use bgaluszka\Mbank\Mbank;
+use lukasirsak\Mbank\Mbank;
 
 const MBANK_LOGIN = 'YOUR-LOGIN';
 const MBANK_PASSWORD = 'YOUR-PASSWORD';

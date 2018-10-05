@@ -1,11 +1,17 @@
 {
-    "name": "bgaluszka/mbank",
+    "name": "lukasirsak/mbank",
     "type": "library",
     "description": "Library for accessing mBank PL transaction service",
     "keywords": ["mbank","api"],
-    "homepage": "https://github.com/bgaluszka/mbank",
+    "homepage": "https://github.com/lukasirsak/mbank",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Lukas Irsak",
+            "email": "lukas.irsak1@gmail.com",
+            "homepage": "http://iitt.sk",
+            "role": "Developer"
+        },
         {
             "name": "Bartosz Gałuszka",
             "email": "bgaluszka@kint.pl",
@@ -14,7 +20,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/bgaluszka/mbank/issues"
+        "issues": "https://github.com/lukasirsak/mbank/issues"
     },
     "require": {
         "php": ">=5.3.0",
@@ -22,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bgaluszka\\": "lib/bgaluszka"
+            "lukasirsak\\": "lib/lukasirsak"
         }
     }
 }
