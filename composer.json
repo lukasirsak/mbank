@@ -1,7 +1,7 @@
 {
     "name": "lukasirsak/mbank",
     "type": "library",
-    "description": "Library for accessing mBank PL transaction service",
+    "description": "Library for accessing mBank Slovak transaction service",
     "keywords": ["mbank","api"],
     "homepage": "https://github.com/lukasirsak/mbank",
     "license": "MIT",
