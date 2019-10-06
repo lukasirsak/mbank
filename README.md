@@ -1,3 +1,8 @@
+## This is no longer working since PSD2 regulation
+## Use native mbank API instead !!!
+
+https://www.mbank.sk/psd2/najcastejsie-otazky/
+
 ## Library for accessing mBank Slovak transaction service
 
 PHP knižnica pre prácu s mBank účtom. Knižnica umožnuje vykonávať operácie s účtom. Forknutá a upravená pre slovenský výpis účtu.
